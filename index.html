@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+    content="width=device-width, 
+    initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css"></link>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="main">
+        <div id="box">
+            <input type="text" readonly="" id="inpu" name="txt"></div>
+        <div id="row1">
+            <button id="ac" onclick="document.getElementById('inpu').value=''">C</button>
+            <button id="plmi" onclick="document.getElementById('inpu').value+=(document.getElementById('inpu').value.pop())">+/-</button>
+            <button id="divide" onclick="document.getElementById('inpu').value+='/'">/</button>
+        </div>
+        <div id="row2">
+            <button id="nine" onclick="document.getElementById('inpu').value+='9'">9</button>
+            <button id="eight" onclick="document.getElementById('inpu').value+='8'">8</button>
+            <button id="seven" onclick="document.getElementById('inpu').value+='7'">7</button>
+            <button id="multi" onclick="document.getElementById('inpu').value+='*'">x</button>
+        </div>
+        <div id="row3">
+            <button id="six" onclick="document.getElementById('inpu').value+='6'">6</button>
+            <button id="five" onclick="document.getElementById('inpu').value+='5'">5</button>
+            <button id="four" onclick="document.getElementById('inpu').value+='4'">4</button>
+            <button id="minus" onclick="document.getElementById('inpu').value+='-'">-</button>
+        </div>
+        <div id="row3">
+            <button id="three" onclick="document.getElementById('inpu').value+='3'">3</button>
+            <button id="two" onclick="document.getElementById('inpu').value+='2'">2</button>
+            <button id="one" onclick="document.getElementById('inpu').value+='1'">1</button>
+            <button id="plus" onclick="document.getElementById('inpu').value+='+'">+</button>
+        </div>
+        <div id="row4">
+            <button id="zero" onclick="document.getElementById('inpu').value+='0'">0</button>
+            <button id="twozero" onclick="document.getElementById('inpu').value+='00'">00</button>
+            <button id="dot" onclick="document.getElementById('inpu').value+='.'">.</button>
+            <button id="equal" onclick="document.getElementById('inpu').value=eval(document.getElementById('inpu').value)">=</button>
+        </div>
+        
+    </div>
+</body>
+</html>

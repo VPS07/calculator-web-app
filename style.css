@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poopins', sans-serif;
+  background: linear-gradient(to top left, #02536b 5%, #24ebeb 100%);
+  background-repeat: no-repeat;
+}
+
+#main {
+  padding-top: 130px;
+}
+
+div button {
+  padding: 18px 25px 18px 25px;
+  background-color: rgba(255, 255, 255, 0.658);
+  border-radius: 50px;
+  border: none;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.507);
+  font-size: 20px;
+  margin: 5px;
+}
+
+div button:hover {
+  background-color: rgba(0, 255, 157, 0.5);
+}
+
+#ac {
+  padding-right: 90px;
+}
+
+#inpu {
+  border: none;
+  padding: 13px 18px 13px 18px;
+  text-align: right;
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, 0.658);
+  border-radius: 12px;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+#row1 button {
+  background-color: rgba(110, 110, 110, 0.562);
+}
+#row1 button:hover {
+  background-color: rgba(0, 255, 157, 0.5);
+}
+
+#twozero {
+  padding: 18px 22px 18px 22px;
+}
+
+#plmi {
+  padding: 18px 20px 18px 20px;
+}
+#remind {
+  padding: 18px 20px 18px 20px;
+}
+
+#minus {
+  padding-inline: 28px;
+}
+
+#divide,
+#multi,
+#minus,
+#plus,
+#equal {
+  background-color: rgba(255, 180, 17, 0.651);
+  color: rgb(0, 0, 0);
+}
