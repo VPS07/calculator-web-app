@@ -1,5 +1,6 @@
-# calculator-web-app
+# Simple Calculator Web App
 
-### Live website here - [Calculator](https://mini-calculator-web-app.netlify.app/)
+Live website here 👉 [Calculator](https://mini-calculator-web-app.netlify.app/)
 
-## Screenshots
+## Screenshot
+<img src="project.png" />
